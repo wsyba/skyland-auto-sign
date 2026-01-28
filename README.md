@@ -268,8 +268,9 @@ SC3_UID（可选）: 若不填会从SC3_SENDKEY自动解析。（形如 12345）
 
 ### 支持的推送服务
 
-#### 1. Serverchan³ (Server酱³)
 <a name="log_notify_serverchan"></a>
+#### 1. Serverchan³ (Server酱³)
+
 Serverchan³ 是一种通过APP接收消息的推送服务。
 
 **配置方法：**
@@ -286,8 +287,9 @@ SC3_UID=your_uid_here  # 可选，不填会自动从sendkey解析
 4. 将 SendKey 设置为 `SC3_SENDKEY` 环境变量
 5. UID（形如 `12345`）可选，若不设置会自动从 SendKey 解析
 
-#### 2. PUSHPLUS（推送加）
 <a name="log_notify_pushplus"></a>
+#### 2. PUSHPLUS（推送加）
+
 PUSHPLUS 支持微信推送等多种方式。
 
 **配置方法：**
@@ -303,8 +305,9 @@ PUSHPLUS_TOPIC=your_topic_here  # 可选，指定推送群组
 3. 如果需要推送到群组，在"我的频道"创建频道获取 topic
 4. 将 token 设置为 `PUSHPLUS_TOKEN` 环境变量
 
-#### 3. Qmsg酱
 <a name="log_notify_qmsg"></a>
+#### 3. Qmsg酱
+
 Qmsg酱 支持QQ消息推送。
 
 **配置方法：**
