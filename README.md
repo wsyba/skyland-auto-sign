@@ -340,7 +340,7 @@ SC3_SENDKEY="your_sendkey" PUSHPLUS_TOKEN="your_token" python src/main.py
 # Windows (命令提示符)
 set SC3_SENDKEY=your_sendkey
 set PUSHPLUS_TOKEN=your_token
-python src/main.py.py
+python src/main.py
 
 # Windows (PowerShell)
 $env:SC3_SENDKEY="your_sendkey"
